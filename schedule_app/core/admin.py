@@ -4,7 +4,7 @@ from core.models import Event
 
 
 class EventAdmin(admin.ModelAdmin):
-    list_display = ('title', 'event_date', 'criation_date')
+    list_display = ('title', 'event_date', 'creation_date')
     list_filter = ('title', 'user',)
 
 
